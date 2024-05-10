@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'HYWenHei';
+    src: url('D:/Academics/Self Coding Practice/HTML Codes/OctaNet Internship/zhcn.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    /* Add padding to the whole page */
+    font-family: 'HYWenHei', Arial, sans-serif;
+    background-image: url("celestia.jpg");
+    background-size: cover;
+    color: #fff;
+    border: 10px solid goldenrod;
+}
+
+header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    /* Center align the heading */
+    text-shadow: 3px 3px 3px black;
+    /* Add thicker black outline */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+    /* Add thicker black outline */
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+    /* Center align the headings */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.build {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.build h3 {
+    margin-top: 0;
+    text-shadow: 2px 2px 2px black;
+    /* Add thicker black outline */
+}
+
+.build p {
+    margin-bottom: 0;
+    text-shadow: 2px 2px 2px black;
+   
+}
+
+/* Add outline to section headings */
+.section h2 {
+    text-shadow: 3px 3px 3px black;
+    /* Add thicker black outline */
+}
